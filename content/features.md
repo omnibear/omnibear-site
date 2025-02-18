@@ -1,5 +1,5 @@
 +++
-date = "2017-09-27T15:27:40-04:00"
+date = "2025-02-18T06:47:46.757Z"
 draft = false
 showcomments = false
 slug = ""
@@ -26,9 +26,3 @@ If the current page is published with valid [microformats](http://indieweb.org/m
 ![Highlighted h-entry with the context menu open. Omnibear's "reply to entry" option is visible in the context menu](/images/features-reply.jpg).
 
 When replying to an entry, you can also click the “like” or “repost” button to quickly post a like or repost for the current entry.
-
-## Twitter and Facebook Support
-
-Omnibear supports interaction with Twitter and Facebook. Right-click on a tweet or Facebook post to highlight it and interact with it.
-
-![A highlighted tweet on twitter.com, with the context menu open. The Omnibear "reply to entry" option is highlighted in the context menu](/images/features-twitter.jpg)
