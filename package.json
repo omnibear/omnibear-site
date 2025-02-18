@@ -1,25 +1,22 @@
 {
   "name": "omnibear.com",
   "version": "1.0.0",
-  "description": "",
+  "description": "A micropub browser extension",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
     "start": "hugo server",
     "start:drafts": "hugo server -D",
-    "build": "hugo -d docs"
+    "build": "hugo --gc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keithjgrant/omnibear.git"
+    "url": "git+https://github.com/omnibear/omnibear.git"
   },
   "author": "Keith J. Grant",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/keithjgrant/omnibear/issues"
+    "url": "https://github.com/omnibear/omnibear/issues"
   },
-  "homepage": "https://github.com/keithjgrant/omnibear#readme",
+  "homepage": "https://github.com/omnibear/omnibear#readme",
   "devDependencies": {}
 }

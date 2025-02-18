@@ -1,3 +1,3 @@
-# omnibear.com
+# omnibear-site
 
-Public website for omnibear
+Source for https://omnibear.com
