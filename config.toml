@@ -1,10 +1,14 @@
 baseUrl = "https://omnibear.com"
 languageCode = "en-US"
-paginate = 20
 theme = "navigator"
 title = "Omnibear"
 
 googleAnalytics = "UA-37381912-3"
+noBuildLock = true
+
+[markup]
+  [markup.goldmark]
+    renderer.unsafe = true
 
 [params]
   logo = "/logo.svg"
@@ -43,3 +47,6 @@ googleAnalytics = "UA-37381912-3"
     name = "Help"
     url = "/help"
     weight = 40
+
+[pagination]
+  pagerSize = 20

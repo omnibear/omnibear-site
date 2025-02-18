@@ -1,0 +1,9 @@
+[build]
+  command = "hugo --gc"
+  publish = "public"
+
+
+[build.environment]
+  HUGO_VERSION = "v0.144.0"
+  NODE_VERSION = "22"
+  TZ = "UTC"

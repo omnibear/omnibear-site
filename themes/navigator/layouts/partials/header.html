@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="description" content="Navigator Hugo Template">
 <meta name="author" content="Themefisher.com">
-{{ .Hugo.Generator }}
+{{ hugo.Generator }}
 
 <title>{{ .Site.Title }}</title>
 
@@ -42,7 +42,7 @@
 {{ else }}
 <meta name="twitter:image" content="https://omnibear.com/logo.svg">
 {{ end }}
-{{- if eq .URL "/" -}}
+{{- if eq .RelPermalink "/" -}}
 <meta name="og:title" content="Omnibear">
 <meta name="twitter:description" content="A micropub browser extension">
 {{- else -}}
