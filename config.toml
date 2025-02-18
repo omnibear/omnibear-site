@@ -9,6 +9,8 @@ noBuildLock = true
 [markup]
   [markup.goldmark]
     renderer.unsafe = true
+  [markup.highlight]
+    noClasses = false
 
 [params]
   logo = "/logo.svg"
