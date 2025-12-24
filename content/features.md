@@ -1,5 +1,4 @@
 +++
-date = "2025-02-18T06:47:46.757Z"
 draft = false
 showcomments = false
 slug = ""
