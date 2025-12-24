@@ -27,7 +27,7 @@ noBuildLock = true
     description = "Omnibear is a [MicroPub](/getting-started/micropub) client, allowing you to publish posts to your website from anywhere on the web. Join the IndieWeb movement, own your own data, and send replies to other IndieWeb sites."
 
   [params.extra]
-    copyright = "Built by [Keith J. Grant](https://keithjgrant.com) | View [source on Github](https://github.com/keithjgrant/omnibear)"
+    copyright = "Built by [Keith J. Grant](https://keithjgrant.com) | View [source on Github](https://github.com/omnibear/omnibear)"
 
 [menu]
   [[menu.nav]]

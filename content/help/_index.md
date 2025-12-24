@@ -31,4 +31,4 @@ Logs are only stored locally on your machine and are not reported to a server.
 
 ## Reporting issues
 
-If you think you’ve found a problem with Omnibear, report it by [opening an issue on GitHub](https://github.com/keithjgrant/omnibear/issues). Be sure to copy the relevant logs as shown above and paste them into the issue.
+If you think you’ve found a problem with Omnibear, report it by [opening an issue on GitHub](https://github.com/omnibear/omnibear/issues). Be sure to copy the relevant logs as shown above and paste them into the issue.
