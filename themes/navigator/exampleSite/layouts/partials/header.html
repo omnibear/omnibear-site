@@ -4,8 +4,11 @@
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="description" content="Navigator Hugo Template">
-<meta name="author" content="Themefisher.com">
+<meta name="description" content="Omnibear browser extension">
+
+{{ if .Params.author }}
+<meta name="author" content="{{ .Params.author }}">
+{{ end }}
 {{ hugo.Generator }}
 
 <title>{{ .Site.Title }}</title>
