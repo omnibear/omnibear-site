@@ -16,6 +16,12 @@ We welcome contributions to this project.
 1. Ensure the site builds
 1. Clearly describe what the change does in the PR title/description
 
+## Project Structure
+
+See the `/content` directory for the Markdown files holding the primary site content.
+There are also some staic files in the `/static` folder.
+To modify the site templates, see the `/themes` folder.
+
 ## Helpful Docs
 
 - [Hugo](https://gohugo.io/): Static site builder
