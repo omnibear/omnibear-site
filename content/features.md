@@ -25,3 +25,8 @@ If the current page is published with valid [microformats](http://indieweb.org/m
 ![Highlighted h-entry with the context menu open. Omnibear's "reply to entry" option is visible in the context menu](/images/features-reply.jpg).
 
 When replying to an entry, you can also click the “like” or “repost” button to quickly post a like or repost for the current entry.
+
+## Webmention indicator
+
+When the Omnibear extension shows a "W" badge, that indicates that Omnibear has detected the current site supports webmentions.
+This can be a helpful reminder to reply from your website using Omnibear.
