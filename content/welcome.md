@@ -23,6 +23,6 @@ You're now ready to start interacting with IndieWeb websites!
   1. If your website is not yet configured, consider signing in with https://commentpara.de
 1. Check out [what Omnibear can do](/features/)
 
-## What if I have issues?
+## Having issues?
 
 IF you run into problems getting Omnibear set up, there are a few [ways to get help](/help/).
