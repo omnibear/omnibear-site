@@ -1,6 +1,7 @@
 ---
-title: "Intro to Micropub"
+title: "Micropub"
 date: 2018-08-31T11:09:26-04:00
+weight: 2
 ---
 
 Omnibear posts to your site using _micropub_. Micropub is a web protocol used to create, update, and delete posts on your website using third-party clients (apps). It is an open specification [published by the W3C](https://www.w3.org/TR/micropub/#abstract-p-1) along with other emerging social web protocols.
@@ -23,13 +24,14 @@ To get started with Wordpress, you will need to install the [micropub plugin](ht
 
 **Note**: You will also need to install the IndieAuth plugin for [authentication](/getting-started/authentication). Alternately, you can use the [IndieWeb package](https://wordpress.org/plugins/indieweb/); this is an installer for several IndieWeb plugins, including both micropub and IndieAuth.
 
-### Jekyll or Hugo
+### Static Sites
 
 If you use a static site generator such as [Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), or [Eleventy](https://www.11ty.io/), you will have to setup your own micropub server to add new posts to your site repository. Thankfully, there are a few servers available to do this for you, but they will require a little configuration.
 
-I recommend [webpage-micropub-to-github](https://github.com/voxpelli/webpage-micropub-to-github), an app that can be deployed to Heroku with a single click and then configured from the Heroku dashboard. This has been verified to work with both Jekyll and Hugo. See the documentation for further details on configuration.
+ - [benjis/micropub](https://github.com/benjifs/micropub): Serverless Netlify functions
+ - [IndieKit](https://getindiekit.com/): A Node.js based micropub server
+ - [webpage-micropub-to-github](https://github.com/voxpelli/webpage-micropub-to-github): A Heroku deployable app tested with Jekyll and Hugo
 
-[Nanopub](https://github.com/dg01d/nanopub) is another similar server you could use instead.
 
 Once you have the server set up, you will need to add a `link` tag to your site indicating where your micropub server can be found ([see below](#how-it-works)).
 

@@ -1,6 +1,7 @@
 ---
 title: "Web sign-in"
 date: 2018-08-31T11:26:07-04:00
+weight: 1
 ---
 
 You can log into Omnibear using [web sign-in](https://indieweb.org/Web_sign-in). This allows you to verify that you own the website you want to post to. There are a number of ways you can implement web sign-in on your site, but the easiest and most common is through [indieauth.com](https://indieauth.com/).
@@ -29,7 +30,6 @@ Somewhere on your homepage, add links to your social profiles around the web. Be
 ```html
 <ul>
   <li><a href="https://github.com/keithjgrant" rel="me">Github</a></li>
-  <li><a href="https://twitter.com/keithjgrant" rel="me">@keithjgrant on Twitter</a></li>
   <li><a href="mailto:me@example.com" rel="me">me@example.com</a></li>
 </ul>
 ```
@@ -38,11 +38,11 @@ Indieauth.com will allow you to use these services to log in.
 
 ### 3. Ensure each of your social profiles links back to your homepage
 
-On GitHub, Twitter, and any other social profiles linked in step 2, edit your profile to link back to your homepage. You can edit your [GitHub URL here](https://github.com/settings/profile) and your [Twitter profile here](https://twitter.com/settings/profile).
+On GitHub and any other social profiles linked in step 2, edit your profile to link back to your homepage. You can edit your [GitHub URL here](https://github.com/settings/profile).
 
 Because your site links to these profiles with a `rel="me"`, and these profiles now link back to your site, you can now prove you are the owner of your site by logging in to any of these services.
 
-_Note:_ Due to recent changes by Twitter, twitter.com cannot currently be used as an authentication endpoint by indieweb.com.
+_Note:_ Due to changes by some services, like Twitter, can no longer be used as an authentication endpoint by indieauth.com.
 
 ### That’s it
 
