@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700');
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700");
 
 :root {
   --brand-color: #f0326b;
@@ -29,7 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   -webkit-font-smoothing: antialiased;
   line-height: 1.4;
 }
@@ -40,7 +40,7 @@ body > main {
 
 p {
   color: var(--gray-30);
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-size: 1rem;
 }
 
@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: 600;
 }
 
@@ -243,7 +243,7 @@ pre > code {
 }
 
 .preloader .sk-child:before {
-  content: '';
+  content: "";
   display: block;
   margin: 0 auto;
   width: 15%;
@@ -465,7 +465,7 @@ pre > code {
 .header-bradcrumb .active {
   color: #cfcfcf;
   font-weight: 200;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
 .header-bradcrumb a:hover {
@@ -510,7 +510,7 @@ pre > code {
 }
 
 .bg-pricing {
-  background: url('../images/pricing-bg.jpg');
+  background: url("../images/pricing-bg.jpg");
   background-size: cover;
 }
 
@@ -627,6 +627,9 @@ pre > code {
   padding: 8px 0;
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .navbar-brand svg {
@@ -834,7 +837,7 @@ pre > code {
   position: absolute;
   left: -15%;
   top: 18px;
-  content: '';
+  content: "";
   display: inline-block;
   width: 12%;
   height: 3px;
@@ -891,7 +894,7 @@ pre > code {
 ==================================================================*/
 .call-to-action-2 {
   padding: 100px 0;
-  background-image: url('../images/call-to-action/call-to-action-bg.jpg');
+  background-image: url("../images/call-to-action/call-to-action-bg.jpg");
   background-size: cover;
   color: #fff;
 }
@@ -929,7 +932,7 @@ pre > code {
   height: 45px !important;
   color: #0c0c0c;
   height: 38px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   border-radius: 3px;
 }
@@ -1043,7 +1046,7 @@ pre > code {
 
 .counters-item:before {
   background: #e5e5e5;
-  content: '';
+  content: "";
   margin-top: -27.5px;
   height: 55px;
   width: 1px;
@@ -1181,7 +1184,7 @@ pre > code {
 }
 
 .portfolio-block:before {
-  content: '';
+  content: "";
   position: absolute;
   opacity: 0;
   top: 0;
@@ -1851,7 +1854,7 @@ pre > code {
 .top-footer a {
   color: var(--blue-60);
   font-size: 13px;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: 300;
   transition: color 0.3s;
 }
