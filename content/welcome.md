@@ -3,14 +3,12 @@ draft = false
 showcomments = false
 slug = ""
 comments = false
-title = "Congrats on installing Omnibear"
+title = "Omnibear is now installed!"
 showpagemeta = false
 categories = []
 tags = []
 
 +++
-
-## Omnibear is now installed!
 
 Thanks for trying Omnibear!
 You're now ready to start interacting with IndieWeb websites!
@@ -25,4 +23,4 @@ You're now ready to start interacting with IndieWeb websites!
 
 ## Having issues?
 
-IF you run into problems getting Omnibear set up, there are a few [ways to get help](/help/).
+If you run into problems getting Omnibear set up, there are a few [ways to get help](/help/).
