@@ -7,10 +7,13 @@ title = "Privacy Policy"
 showpagemeta = false
 categories = []
 tags = []
-
+url = "/privacy/"
+weight = 4
 +++
 
 Omnibear is a browser extension designed to help you interact with your IndieWeb site. We value your privacy and are committed to protecting your data. Below is an overview of our privacy practices:
+
+<!--more-->
 
 ## Data Collection and Storage
 
