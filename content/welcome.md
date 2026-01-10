@@ -16,7 +16,7 @@ You're now ready to start interacting with IndieWeb websites!
 ## Next steps
 
 1. Pin Omnibear to your toolbar for easier access
-1. Learn about replying to websites
+1. Read the [getting started guide](https://omnibear.com/getting-started/)
 1. Login with your website!
   1. If your website is not yet configured, consider signing in with https://commentpara.de
 1. Check out [what Omnibear can do](/features/)
