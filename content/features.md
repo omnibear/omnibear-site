@@ -14,7 +14,7 @@ tags = []
 
 Omnibear is a [MicroPub client](http://indieweb.org/micropub), allowing you to publish posts to your website from anywhere on the web. Click on the browser extension icon to open the drafting window. Use this to compose and save your post.
 
-![Omnibear popup window open](/images/features-basic.png)
+![Omnibear popup window open](/images/features-basic.jpg)
 
 ## Replying
 
@@ -30,3 +30,5 @@ When replying to an entry, you can also click the “like” or “repost” but
 
 When the Omnibear extension shows a "W" badge, that indicates that Omnibear has detected the current site supports webmentions.
 This can be a helpful reminder to reply from your website using Omnibear.
+
+![Omnibear popup window showing W indicator](/images/features-wm.jpg)
