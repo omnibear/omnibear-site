@@ -26,6 +26,13 @@ If the current page is published with valid [microformats](http://indieweb.org/m
 
 When replying to an entry, you can also click the “like” or “repost” button to quickly post a like or repost for the current entry.
 
+### Replying to social networks
+
+Omnibear supports finding the post URL when right clicking on Mastodon and Bluesky posts.
+This allows you to write the reply easily on your own site.
+However, you will likely need a bridge like [Bridgy Fed](https://fed.brid.gy/docs#web-get-started) to translate your reply to the social network.
+See [Bridging Mentions](/getting-started/mentions/#bridging-mentions) for more information.
+
 ## Webmention indicator
 
 When the Omnibear extension shows a "W" badge, that indicates that Omnibear has detected the current site supports webmentions.
