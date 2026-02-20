@@ -1,0 +1,21 @@
+[build]
+  command = "hugo --gc"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "v0.156.0"
+  NODE_VERSION = "24"
+  TZ = "UTC"
+
+[dev]
+  command = "hugo server -w"
+
+
+# Noticed commentpara.de was redirecting to homepage instead of the auth success page.
+# This redirect should only apply if the 3 query parameters are present.
+[[redirects]]
+  from = "/"
+  force = true
+  to = "/auth/success/?code=:code&me=:me&state=:state"
+  status = 302
+  query = {code = ":code", me = ":me", state = ":state"}
