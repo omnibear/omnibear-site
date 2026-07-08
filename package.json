@@ -6,6 +6,7 @@
   "scripts": {
     "start": "hugo server",
     "start:drafts": "hugo server -D",
+    "download-release": "node download-latest-release.js",
     "build": "hugo --gc"
   },
   "repository": {

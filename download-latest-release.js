@@ -76,6 +76,22 @@ ${assetLinks}
       .replaceAll(
         / https:\/\/github.com\/omnibear\/omnibear\/pull\/(\d*)/g,
         (substring, prId) => ` [#${prId}](${substring.substring(1)})`
+      )
+      // Link bare #NNN issue/PR references not already inside a markdown link
+      .replace(
+        /(?<!\[)#(\d+)/g,
+        `[#$1](https://github.com/${owner}/${repo}/issues/$1)`
+      )
+      // Link @username mentions not already inside a markdown link
+      .replace(
+        /(?<!\[)@([a-zA-Z0-9][a-zA-Z0-9-]*)(\[bot\])?/g,
+        (match, username, bot) =>
+          `[@${username}${bot ?? ""}](https://github.com/${username})`
+      )
+      // Link commit SHAs not already inside a markdown link or URL path
+      .replace(
+        /(?<![\[\/])\b([0-9a-f]{7,40})\b/g,
+        `[$1](https://github.com/${owner}/${repo}/commit/$1)`
       ) +
     changelogLink +
     "\n";
