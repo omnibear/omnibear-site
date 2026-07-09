@@ -11,7 +11,7 @@
 {{ end }}
 {{ hugo.Generator }}
 
-<title>{{ .Site.Title }}</title>
+<title>{{ if and .Title (ne .RelPermalink "/") }}{{ .Title }} | {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
 
 {{ "<!-- Mobile Specific Meta -->" | safeHTML }}
 <meta name="viewport" content="width=device-width, initial-scale=1">
